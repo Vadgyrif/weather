@@ -1,0 +1,6 @@
+name: Weather module
+type: module
+description: 'Custom module for showing weather'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+version: 1.0

@@ -1,0 +1,6 @@
+weather.weather_config:
+  title: "Key"
+  route_name: weather.weather_config
+  description: "Config Form for Api Key"  
+  parent: system.admin_config_system
+  weight: 99

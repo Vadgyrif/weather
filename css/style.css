@@ -1,0 +1,88 @@
+
+
+.weather_container{
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+.search{
+    display: flex;
+    margin-bottom: 30px;
+   
+}
+
+.weather_city{
+    font-size: 52px;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    
+}
+
+.weather_temp{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.weather_feels-like{
+    margin-bottom: 30px;
+}
+
+#cityInput{
+    width: 79%;
+    height: 50px;
+    padding: 0 15px; 
+    margin-right: 10px ;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    opacity: 0.8;
+    background-color: #fff;
+}
+
+#loadWeatherBtn{
+    background: url('/web/modules/custom/weather/image/search-icon-png-9985.png') no-repeat;
+    border-radius: 30px;
+    opacity: 0.8;
+    border: 1px solid transparent;
+    background-color: #fff;
+    width: 16%;
+
+}
+
+.weather_icon img{
+    width: 50%;
+}
+
+.weather__second_section{
+    display: flex;
+}
+
+.weather__wind, .weather__huminidy{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weather__humidity_img, .weather__wind_img{
+    width: 40%;
+}
+
+/* Хуйня від початкової теми*/
+
+.sidebar h2{
+
+    font-size: 52px;
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    
+
+}
+
+.loadWeatherBtn_ico{
+    width: 100%;
+    opacity: 0.4;
+}

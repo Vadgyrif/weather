@@ -1,0 +1,9 @@
+weather.weather_config:
+  path: "/admin/config/weather/app"
+  defaults: 
+    _form: '\Drupal\weather\Form\weather_form'
+    _title: "Weather Key"
+  requirements: 
+    _permission: "access administration pages"
+  options: 
+    _admin_route: TRUE 

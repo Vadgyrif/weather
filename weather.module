@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme()
+ */
+
+function weather_theme()
+{
+    return [
+        'weather_theme' => [
+            'variables' => ['path' => ''],
+            'render element' => 'children',
+        ]
+    ];
+}
